@@ -21,14 +21,9 @@ class ViewPagerAdapter(fragmentManager:FragmentManager, lifecycle: Lifecycle):Fr
             1->{
                 SecondFragment()
             }
-            2->{
+            else->{
                 ThirdFragment()
             }
-            else->{
-                Fragment()
-            }
-
-
         }
     }
 }
